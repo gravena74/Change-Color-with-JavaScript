@@ -1,0 +1,24 @@
+*{
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #41ABB9;
+}
+
+div{
+    display: flex;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+input, button{
+    cursor: pointer;
+    border-radius: 15px;
+    background-color: #fff;
+    padding: 2px;
+    border: 2px solid black;
+}
